@@ -1,3 +1,6 @@
+
+![Screenshot (5)](https://user-images.githubusercontent.com/61892998/115641306-28c7d380-a2ef-11eb-9845-6183b6ad6292.png)
+
 # (WIP) DevQuiz - NLW#5 - Flutter
 
 An application with several Flutter quizzes, developed on the Rocketseat Next Level Week track.
@@ -9,12 +12,13 @@ An application with several Flutter quizzes, developed on the Rocketseat Next Le
 NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level. Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career. An online and completely free event that will help you take the next step in your evolution as a dev.
 
 # Days
-![NLW5 - Flutter](https://user-images.githubusercontent.com/61892998/115640844-40eb2300-a2ee-11eb-9bce-db82bfd423c5.png)
+
 
 # Project
 The Flutter track in NLW # 5 presents the development of the DevQuiz application as a project, a quiz with questions for the user to test their knowledge of Flutter. For the development of this application, several widgets and features present in Flutter will be learned.
 
-![Screenshot (5)](https://user-images.githubusercontent.com/61892998/115641306-28c7d380-a2ef-11eb-9845-6183b6ad6292.png)
+![NLW5 - Flutter](https://user-images.githubusercontent.com/61892998/115640844-40eb2300-a2ee-11eb-9bce-db82bfd423c5.png)
+
 
 # Layout
 
@@ -26,14 +30,16 @@ To access the layout use [Figma](https://www.figma.com/file/l0RvF0rKIZ5ZHadrgLTH
         git clone
 
 2. Run the project
+        
+        flutter run
 
 # I always want more ... Extra features:
 
-[ ] - Implement the main interview questions for flutter developers.
+- [ ] - Implement the main interview questions for flutter developers.
 
-[ ] - Login with github
+- [ ] - Login with github
 
-[ ] - Api GraphQl Github
+- [ ] - Api GraphQl Github
 
 # How to contribute
 * Make a fork;
