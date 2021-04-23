@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "89839348591",
+    "project_id": "quiz-ce5b1",
+    "storage_bucket": "quiz-ce5b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89839348591:android:e723e85a357600c99bd69a",
+        "android_client_info": {
+          "package_name": "com.example.nlw_trilha_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89839348591-rd98mqqtv0jpq5sc5kg6hgkemnck1r97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4v4-4zgKO5qcqmZJJDrDXMip8eAQbth4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89839348591-rd98mqqtv0jpq5sc5kg6hgkemnck1r97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

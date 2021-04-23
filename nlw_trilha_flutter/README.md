@@ -37,10 +37,6 @@ To access the layout use [Figma](https://www.figma.com/file/l0RvF0rKIZ5ZHadrgLTH
 
 - [ ] - Implement the main interview questions for flutter developers.
 
-- [ ] - Login with github
-
-- [ ] - Api GraphQl Github
-
 # How to contribute
 * Make a fork;
 * Create a branch with your feature: git checkout -b featureName;

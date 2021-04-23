@@ -1,70 +1,9 @@
 [
  {
-        "title": "NLW 5 Flutter",
-        "imagem": "blocks",
-        "level": "facil",
-        "questionAnswered": 3,
-        "questions": [
-          {
-            "title": "Está curtindo o flutter?",
-            "awnsers": [
-              {"title": "Sim"},
-              {"title": "Não"},
-              {"title": "Talvez"},
-              {"title": "Sou mais React (Shame of you)","isRight" : true}
-            ]
-        },
-        {
-            "title": "Está curtindo o flutter?",
-            "awnsers": [
-              {"title": "Sim"},
-              {"title": "Não"},
-              {"title": "Talvez"},
-              {"title": "Sou mais React (Shame of you)","isRight" : true}
-            ]
-        },
-        {
-            "title": "Está curtindo o flutter?",
-            "awnsers": [
-              {"title": "Sim"},
-              {"title": "Não"},
-              {"title": "Talvez"},
-              {"title": "Sou mais React (Shame of you)","isRight" : true}
-            ]
-        },
-        {
-            "title": "Está curtindo o flutter?",
-            "awnsers": [
-              {"title": "Sim"},
-              {"title": "Não"},
-              {"title": "Talvez"},
-              {"title": "Sou mais React (Shame of you)","isRight" : true}
-            ]
-        },
-        {
-            "title": "Está curtindo o flutter?",
-            "awnsers": [
-              {"title": "Sim"},
-              {"title": "Não"},
-              {"title": "Talvez"},
-              {"title": "Sou mais React (Shame of you)","isRight" : true}
-            ]
-        }, {
-            "title": "Está curtindo o flutter?",
-            "awnsers": [
-              {"title": "Sim"},
-              {"title": "Não"},
-              {"title": "Talvez"},
-              {"title": "Sou mais React (Shame of you)","isRight" : true}
-            ]
-        }
-    ]
- },   
- {
   "title": "Iniciante",
   "imagem": "blocks",
   "level": "facil",
-  "questionAnswered": 3,
+  "questionAnswered": 0,
   "questions": [
     {
       "title": "O que é Flutter?",
@@ -103,20 +42,20 @@
       ]
   },
   {
-      "title": "Está curtindo o flutter?",
+      "title": "O que é um 'future' no Dart?",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "É usado para programação assíncrona. O Future representa um valor potencial (ou erro) que estará disponível em algum momento no futuro.","isRight" : true},
+        {"title": "É usado para programação síncrona. O Future representa um valor potencial (ou erro) que estará disponível em algum momento no futuro"},
+        {"title": "É usado para programação assíncrona. O Future representa um estado potencial (ou erro) que estará disponível em algum momento no futuro"},
+        {"title": "É usado para programação síncrona. O Future representa um valor potencial (ou erro) que não ficará no futuro"}
       ]
   }, {
-      "title": "Está curtindo o flutter?",
+      "title": "Para qu servem as palavras chave async e await?",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "Essas são palavras-chave que tornam a programação assíncrona muito mais fácil de usar e ler. Podemos usá-los em vez de escrever um retorno then de chamada em objetos Future."},
+        {"title": "Serve para demarcar funções sincronas."},
+        {"title": "async serve para atrazar a chamada da função"},
+        {"title": "await serve para sincronizar a chamada atravez do async","isRight" : true}
       ]
   }
 ]
@@ -155,154 +94,93 @@
       ]
   },
   {
-      "title": "Está curtindo o flutter?",
+      "title": "Selecione a opção que nao faz parte do ciclo de vida e um StatefulWidget",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "deactivate()"},
+        {"title": "didUpdateWidget()"},
+        {"title": "build()"},
+        {"title": "buildChangeDependencies()","isRight" : true}
       ]
   },
   {
-      "title": "Está curtindo o flutter?",
+      "title": "O que é um 'InheritedWidget'?",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "É um tipo especial de widget que contém apenas estados - não descreve a interface do usuário. Ele define um contexto na raiz de uma subárvore e pode fornecer esse contexto de maneira eficiente para cada widget na árvore."},
+        {"title": "É um tipo especial de widget que contém apenas dados -  descreve a interface do usuário. Ele define um contexto na raiz de uma subárvore e pode fornecer esse contexto de maneira eficiente para cada widget na árvore."},
+        {"title": "É um tipo especial de widget que contém apenas dados - não descreve a interface do usuário. Ele não fornece um contexto cada widget na árvore."},
+        {"title": "É um tipo especial de widget que contém apenas dados - não descreve a interface do usuário. Ele define um contexto na raiz de uma subárvore e pode fornecer esse contexto de maneira eficiente para cada widget na árvore.","isRight" : true}
       ]
   }, {
-      "title": "Está curtindo o flutter?",
+      "title": "Quando você usa 'double.infinity’?",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "É usado quando você deseja especificar que o widget deve ser tão grande quanto o filho."},
+        {"title": "É usado quando você deseja especificar que o widget deve ser tão grande quanto o pai.","isRight" : true},
+        {"title": "É usado quando você deseja especificar que o widget deve ser tão grande quanto a tela do dispositivo."},
+        {"title": "É usado quando você deseja especificar que o widget deve ser tão pequeno quanto o pai."}
       ]
   }
 ]
 },   
 {
-  "title": "NLW 5 Flutter",
+  "title": "Intermediario",
   "imagem": "blocks",
   "level": "facil",
   "questionAnswered": 3,
   "questions": [
     {
-      "title": "Está curtindo o flutter?",
+      "title": "Existe alguma maneira de descartar o teclado programaticamente?",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "FocusScope.of(context).infocus();"},
+        {"title": "FocusScope.of(context).onfocus();"},
+        {"title": "FocusScope.of(context).focus();"},
+        {"title": "FocusScope.of(context).unfocus();","isRight" : true}
       ]
   },
   {
-      "title": "Está curtindo o flutter?",
+      "title": "Quais são as maneiras de adicionar um 'ListView' a uma coluna?",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "Precisamos definir explicitamente a largura do ListView, usar a propriedade shrinkWrap no ListView ou envolver o ListView com um widget Expanded."},
+        {"title": "Precisamos definir a largura do ListView, usar a propriedade shrinkWrap  no ListViewou envolver o ListViewcom um widget Expanded."},
+        {"title": "Precisamos definir explicitamente a altura do ListView, usar a propriedade onTap  no ListViewou envolver o ListViewcom um widget Expanded."},
+        {"title": "Precisamos definir explicitamente a altura do ListView, usar a propriedade shrinkWrap  no ListViewou envolver o ListViewcom um widget Expanded.","isRight" : true}
       ]
   },
   {
-      "title": "Está curtindo o flutter?",
+      "title": "Qual é a razão por trás do texto com um sublinhado duplo amarelo ?",
       "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
+        {"title": "Isso significa que uma instância do tema está faltando como filho"},
+        {"title": "Isso significa que precisamos envolver o Text com um Conteiner"},
+        {"title": "Isso significa que precisamos envolver o Text com um Expanded"},
+        {"title": "Isso significa que uma instância do tema está faltando como pai","isRight" : true}
       ]
   },
   {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  },
-  {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  }, {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  }
-]
+    "title": "O que é um 'InheritedWidget'?",
+    "awnsers": [
+      {"title": "É um tipo especial de widget que contém apenas estados - não descreve a interface do usuário. Ele define um contexto na raiz de uma subárvore e pode fornecer esse contexto de maneira eficiente para cada widget na árvore."},
+      {"title": "É um tipo especial de widget que contém apenas dados -  descreve a interface do usuário. Ele define um contexto na raiz de uma subárvore e pode fornecer esse contexto de maneira eficiente para cada widget na árvore."},
+      {"title": "É um tipo especial de widget que contém apenas dados - não descreve a interface do usuário. Ele não fornece um contexto cada widget na árvore."},
+      {"title": "É um tipo especial de widget que contém apenas dados - não descreve a interface do usuário. Ele define um contexto na raiz de uma subárvore e pode fornecer esse contexto de maneira eficiente para cada widget na árvore.","isRight" : true}
+    ]
 },
 {
-  "title": "NLW 5 Flutter",
-  "imagem": "blocks",
-  "level": "facil",
-  "questionAnswered": 3,
-  "questions": [
-    {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  },
-  {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  },
-  {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  },
-  {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  },
-  {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  }, {
-      "title": "Está curtindo o flutter?",
-      "awnsers": [
-        {"title": "Sim"},
-        {"title": "Não"},
-        {"title": "Talvez"},
-        {"title": "Sou mais React (Shame of you)","isRight" : true}
-      ]
-  }
+  "title": "Que tipo de animação permite que você represente o comportamento do mundo real?",
+  "awnsers": [
+    {"title": "A animação baseada em funções matematicas complexas permite representar o comportamento do mundo real no Flutter."},
+    {"title": "A animação baseada em geometria permite representar o comportamento do mundo real no Flutter."},
+    {"title": "A animações implicitas permite representar o comportamento do mundo real no Flutter."},
+    {"title": "A animação baseada em física permite representar o comportamento do mundo real no Flutter.","isRight" : true}
+  ]
+},  {
+  "title": "Por que a construção do primeiro aplicativo Flutter demora tanto?",
+  "awnsers": [
+    {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter destruiu o arquivo APK ou IPA específico do dispositivo. Assim, o Gradle e o Xcode são usados ​​para construir o arquivo, demorando muito."},
+    {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter construiu o arquivo APK ou IPE específico do dispositivo. Assim, o Gradle e o Xcode são usados ​​para construir o arquivo, demorando muito."},
+    {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter construiu o arquivo APK ou IPA específico do dispositivo. Assim, o AndroidManifest e o Xcode são usados ​​para construir o arquivo, demorando muito."},
+    {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter construiu o arquivo APK ou IPA específico do dispositivo. Assim, o Gradle e o Xcode são usados ​​para construir o arquivo, demorando muito.","isRight" : true}
+  ]
+}
 ]
-}   
+}
 
 ]
