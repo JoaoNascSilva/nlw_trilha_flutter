@@ -2,13 +2,15 @@ import 'package:DevQuiz/app/features/challenge/presenter/challenge_controller.da
 import 'package:DevQuiz/app/features/challenge/presenter/widgets/next_button/next_button_widget.dart';
 import 'package:DevQuiz/app/features/challenge/presenter/widgets/question_indicator/question_indicator.dart';
 import 'package:DevQuiz/app/features/challenge/presenter/widgets/quizz/quizz_widget.dart';
+import 'package:DevQuiz/app/features/result/result_page.dart';
 import 'package:DevQuiz/core/shared/models/question_model.dart';
 import 'package:flutter/material.dart';
 
 class ChallengePage extends StatefulWidget {
   final List<QuestionModel> questions;
-
-  const ChallengePage({Key? key, required this.questions}) : super(key: key);
+  final String title;
+  const ChallengePage({Key? key, required this.questions, required this.title})
+      : super(key: key);
   @override
   _ChallengePageState createState() => _ChallengePageState();
 }
@@ -16,6 +18,7 @@ class ChallengePage extends StatefulWidget {
 class _ChallengePageState extends State<ChallengePage> {
   final controller = ChallengeController();
   final pageController = PageController();
+
   @override
   void initState() {
     super.initState();
@@ -26,17 +29,25 @@ class _ChallengePageState extends State<ChallengePage> {
   }
 
   void nextPage() {
-    pageController.nextPage(
-      duration: Duration(seconds: 1),
-      curve: Curves.linear,
-    );
+    if (controller.currentPage < widget.questions.length)
+      pageController.nextPage(
+        duration: Duration(milliseconds: 100),
+        curve: Curves.linear,
+      );
+  }
+
+  void onSelected(bool value) {
+    if (value) {
+      controller.amountAnswersRight++;
+    }
+    nextPage();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(86),
+        preferredSize: Size.fromHeight(70),
         child: SafeArea(
           top: true,
           child: Column(
@@ -61,10 +72,8 @@ class _ChallengePageState extends State<ChallengePage> {
             .map(
               (quizz) => QuizzWidget(
                 title: quizz.title,
-                question: widget.questions[0],
-                onChange: () {
-                  nextPage();
-                },
+                question: quizz,
+                onSelected: onSelected,
               ),
             )
             .toList(),
@@ -79,21 +88,36 @@ class _ChallengePageState extends State<ChallengePage> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Expanded(
-                            child: NestButtonWidget.green(
-                          label: 'Confirmar',
-                          onTap: () {
-                            Navigator.pop(context);
-                          },
-                        )),
+                          child: NextButtonWidget.green(
+                            label: 'Confirmar',
+                            onTap: () {
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) => ResultPage(
+                                    title: widget.title,
+                                    length: widget.questions.length,
+                                    result: controller.amountAnswersRight,
+                                  ),
+                                ),
+                              );
+                            },
+                          ),
+                        ),
                       ],
                     )
-                  : Expanded(
-                      child: NestButtonWidget.white(
-                      label: 'Pular',
-                      onTap: () {
-                        nextPage();
-                      },
-                    )),
+                  : Row(
+                      children: [
+                        Expanded(
+                          child: NextButtonWidget.white(
+                            label: 'Pular',
+                            onTap: () {
+                              nextPage();
+                            },
+                          ),
+                        ),
+                      ],
+                    ),
         ),
       ),
     );

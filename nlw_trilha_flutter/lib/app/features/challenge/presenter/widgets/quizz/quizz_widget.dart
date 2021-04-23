@@ -6,13 +6,13 @@ import 'package:flutter/material.dart';
 class QuizzWidget extends StatefulWidget {
   final String title;
   final QuestionModel question;
-  final VoidCallback onChange;
+  final ValueChanged<bool> onSelected;
 
   const QuizzWidget(
       {Key? key,
       required this.title,
       required this.question,
-      required this.onChange})
+      required this.onSelected})
       : super(key: key);
 
   @override
@@ -20,34 +20,37 @@ class QuizzWidget extends StatefulWidget {
 }
 
 class _QuizzWidgetState extends State<QuizzWidget> {
-  int indexSelected = -1;
+  int? indexSelected;
 
   awnsers(int index) => widget.question.awnsers[index];
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: [
-          SizedBox(height: 64),
-          Text(
-            widget.question.title,
-            style: AppTextStyles.heading,
-          ),
-          SizedBox(height: 24),
-          for (var i = 0; i < widget.question.awnsers.length; i++)
-            AwnserWidget(
-              awnser: awnsers(i),
-              disabled: indexSelected != -1,
-              isSelected: indexSelected == i,
-              onTap: () {
-                indexSelected = i;
-                Future.delayed(Duration(seconds: 1));
-                setState(() {});
-                widget.onChange();
-              },
-            )
-        ],
+    return SingleChildScrollView(
+      child: Container(
+        child: Column(
+          children: [
+            SizedBox(height: 64),
+            Text(
+              widget.question.title,
+              style: AppTextStyles.heading,
+              textAlign: TextAlign.center,
+            ),
+            SizedBox(height: 24),
+            for (var i = 0; i < widget.question.awnsers.length; i++)
+              AwnserWidget(
+                awnser: awnsers(i),
+                disabled: indexSelected != null,
+                isSelected: indexSelected == i,
+                onTap: (value) {
+                  indexSelected = i;
+                  Future.delayed(Duration(seconds: 1));
+                  setState(() {});
+                  widget.onSelected(value);
+                },
+              )
+          ],
+        ),
       ),
     );
   }

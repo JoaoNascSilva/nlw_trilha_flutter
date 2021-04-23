@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'package:DevQuiz/core/app_colors.dart';
 
-class NestButtonWidget extends StatelessWidget {
+class NextButtonWidget extends StatelessWidget {
   final String label;
   final Color color;
   final Color fontColor;
@@ -11,7 +11,7 @@ class NestButtonWidget extends StatelessWidget {
   final Color overlayColor;
   final VoidCallback onTap;
 
-  const NestButtonWidget({
+  const NextButtonWidget({
     Key? key,
     required this.label,
     required this.color,
@@ -21,7 +21,7 @@ class NestButtonWidget extends StatelessWidget {
     required this.onTap,
   }) : super(key: key);
 
-  NestButtonWidget.green({required String label, required VoidCallback onTap})
+  NextButtonWidget.green({required String label, required VoidCallback onTap})
       : this.color = AppColors.darkGreen,
         this.fontColor = AppColors.white,
         this.label = label,
@@ -29,9 +29,26 @@ class NestButtonWidget extends StatelessWidget {
         this.borderColor = AppColors.darkGreen,
         this.onTap = onTap;
 
-  NestButtonWidget.white({required String label, required VoidCallback onTap})
+  NextButtonWidget.white({required String label, required VoidCallback onTap})
       : this.color = AppColors.white,
         this.fontColor = AppColors.grey,
+        this.label = label,
+        this.overlayColor = AppColors.grey.withOpacity(0.1),
+        this.borderColor = AppColors.border,
+        this.onTap = onTap;
+
+  NextButtonWidget.purple({required String label, required VoidCallback onTap})
+      : this.color = AppColors.purple,
+        this.fontColor = AppColors.white,
+        this.label = label,
+        this.overlayColor = AppColors.grey.withOpacity(0.1),
+        this.borderColor = AppColors.border,
+        this.onTap = onTap;
+
+  NextButtonWidget.transparent(
+      {required String label, required VoidCallback onTap})
+      : this.color = Colors.transparent,
+        this.fontColor = AppColors.black,
         this.label = label,
         this.overlayColor = AppColors.grey.withOpacity(0.1),
         this.borderColor = AppColors.border,

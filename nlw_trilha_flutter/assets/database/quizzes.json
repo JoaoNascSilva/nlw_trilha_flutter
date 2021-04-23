@@ -1,6 +1,5 @@
 [
  {
-    
         "title": "NLW 5 Flutter",
         "imagem": "blocks",
         "level": "facil",
@@ -60,5 +59,250 @@
             ]
         }
     ]
- }   
+ },   
+ {
+  "title": "Iniciante",
+  "imagem": "blocks",
+  "level": "facil",
+  "questionAnswered": 3,
+  "questions": [
+    {
+      "title": "O que é Flutter?",
+      "awnsers": [
+        {"title": "Flutter é um kit de ferramentas de backend para a criação de aplicativos móveis."},
+        {"title": "É uma linguagem e programação para utilizar o framework Dart."},
+        {"title": "Flutter é um kit de ferramentas de UI para a criação de aplicações multi plataforma.","isRight" : true},
+        {"title": "Não sei."}
+      ]
+  },
+  {
+      "title": "O que é Dart? [Marque a resposta incorreta.]",
+      "awnsers": [
+        {"title": "Dart é uma linguagem de programação orientada a objetos de uso geral com sintaxe de estilo C."},
+        {"title": "É uma linguagem importante para a criação de aplicativos Flutter."},
+        {"title": "A linguagem Dart pode ser compilada AOT (Ahead-of-Time) e JIT (Just-in-Time.)"},
+        {"title": "Dart não é uma linguagem orientada a objetos.","isRight" : true}
+      ]
+  },
+  {
+      "title": "O que é o arquivo pubspec.yaml?",
+      "awnsers": [
+        {"title": "É o arquivo de configuração do projeto","isRight" : true},
+        {"title": "É o arquivo de versionamento do projeto"},
+        {"title": "É o arquivo de strings do projeto"},
+        {"title": "É o arquivo de sdk do projeto"}
+      ]
+  },
+  {
+      "title": "Qual é a diferença entre as funções \"main ()\" e \"runApp ()\" no Flutter?",
+      "awnsers": [
+        {"title": "A função main() é responsável por finalizar o programa. Sem a função main(), não podemos escrever nenhum programa no Flutter. E a função runApp () é responsável por retornar os widgets que estão anexados à tela como uma raiz da árvore de widgets e serão renderizados na tela."},
+        {"title": "A função main() é responsável por iniciar o programa. Sem a função main(), não podemos escrever nenhum programa no Flutter. E a função runApp () é responsável por abortar os widgets que estão anexados à tela como uma raiz da árvore de widgets e serão renderizados na tela."},
+        {"title": "A função main() é responsável por iniciar o programa. Sem a função main(), não podemos escrever nenhum programa no Flutter. E a função runApp () é responsável por retornar os widgets que estão anexados à tela como uma raiz da árvore de widgets e serão renderizados na tela.","isRight" : true},
+        {"title": "A função main() é responsável por iniciar o programa. Sem a função main(), não podemos escrever nenhuma função no Flutter. E a função runApp () é responsável por retornar os widgets que estão anexados à tela como uma raiz da árvore de widgets e serão renderizados na tela."}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }, {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }
+]
+},   
+{
+  "title": "Intermediario",
+  "imagem": "blocks",
+  "level": "facil",
+  "questionAnswered": 3,
+  "questions": [
+    {
+      "title": "Por que a construção do primeiro aplicativo Flutter demora tanto?",
+      "awnsers": [
+        {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter destruiu o arquivo APK ou IPA específico do dispositivo. Assim, o Gradle e o Xcode são usados ​​para construir o arquivo, demorando muito."},
+        {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter construiu o arquivo APK ou IPE específico do dispositivo. Assim, o Gradle e o Xcode são usados ​​para construir o arquivo, demorando muito."},
+        {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter construiu o arquivo APK ou IPA específico do dispositivo. Assim, o AndroidManifest e o Xcode são usados ​​para construir o arquivo, demorando muito."},
+        {"title": "Ao criar o aplicativo Flutter pela primeira vez, isso levará mais tempo. É porque o Flutter construiu o arquivo APK ou IPA específico do dispositivo. Assim, o Gradle e o Xcode são usados ​​para construir o arquivo, demorando muito.","isRight" : true}
+      ]
+  },
+  {
+      "title": "Que tipo de animação permite que você represente o comportamento do mundo real?",
+      "awnsers": [
+        {"title": "A animação baseada em funções matematicas complexas permite representar o comportamento do mundo real no Flutter."},
+        {"title": "A animação baseada em geometria permite representar o comportamento do mundo real no Flutter."},
+        {"title": "A animações implicitas permite representar o comportamento do mundo real no Flutter."},
+        {"title": "A animação baseada em física permite representar o comportamento do mundo real no Flutter.","isRight" : true}
+      ]
+  },
+  {
+      "title": "O que é e qual a finalidade da palavra reservada this?",
+      "awnsers": [
+        {"title": "A palavra-chave this pode ser usada em Classes como um atalho útil para atribuir valores a propriedades - por exemplo MyClass(this.param, this.param2, this.param3);"},
+        {"title": "A palavra-chave this pode ser usada em como um atalho útil para atribuir um estado a uma propriedade - por exemplo MyClass(this.param = state, this.param2, this.param3);"},
+        {"title": "A palavra-chave this não pode ser usada em construtores atribuir valores a propriedades"},
+        {"title": "A palavra-chave this pode ser usada em construtores como um atalho útil para atribuir valores a propriedades - por exemplo MyClass(this.param, this.param2, this.param3);","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }, {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }
+]
+},   
+{
+  "title": "NLW 5 Flutter",
+  "imagem": "blocks",
+  "level": "facil",
+  "questionAnswered": 3,
+  "questions": [
+    {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }, {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }
+]
+},
+{
+  "title": "NLW 5 Flutter",
+  "imagem": "blocks",
+  "level": "facil",
+  "questionAnswered": 3,
+  "questions": [
+    {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  },
+  {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }, {
+      "title": "Está curtindo o flutter?",
+      "awnsers": [
+        {"title": "Sim"},
+        {"title": "Não"},
+        {"title": "Talvez"},
+        {"title": "Sou mais React (Shame of you)","isRight" : true}
+      ]
+  }
+]
+}   
+
 ]
