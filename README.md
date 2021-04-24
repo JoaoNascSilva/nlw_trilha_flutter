@@ -48,6 +48,6 @@ To access the layout use [Figma](https://www.figma.com/file/l0RvF0rKIZ5ZHadrgLTH
 
 # Important
 
-Your feedback is very welcome! Did you find something wrong, do you want to make a suggestion, or ask something? Get in touch via Linkedin
+Your feedback is very welcome! Did you find something wrong, do you want to make a suggestion, or ask something? Get in touch via [Linkedin](https://www.linkedin.com/in/gabriela-pereira-dos-santos-472365139/)
 
 ![giphy](https://user-images.githubusercontent.com/61892998/115642427-56158100-a2f1-11eb-873d-360858eb879d.gif)
