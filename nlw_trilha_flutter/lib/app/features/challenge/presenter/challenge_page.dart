@@ -31,7 +31,7 @@ class _ChallengePageState extends State<ChallengePage> {
   void nextPage() {
     if (controller.currentPage < widget.questions.length)
       pageController.nextPage(
-        duration: Duration(milliseconds: 100),
+        duration: Duration(seconds: 3),
         curve: Curves.linear,
       );
   }

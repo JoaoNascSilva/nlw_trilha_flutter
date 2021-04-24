@@ -63,7 +63,7 @@
 {
   "title": "Intermediario",
   "imagem": "blocks",
-  "level": "facil",
+  "level": "medio",
   "questionAnswered": 3,
   "questions": [
     {
@@ -122,9 +122,9 @@
 ]
 },   
 {
-  "title": "Intermediario",
+  "title": "Avançado",
   "imagem": "blocks",
-  "level": "facil",
+  "level": "dificil",
   "questionAnswered": 3,
   "questions": [
     {
